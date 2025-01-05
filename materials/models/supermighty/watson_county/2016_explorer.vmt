@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	
+                "$basetexture" "models/supermighty/watson_county/2016_explorer"
+	"$bumpmap" "models/supermighty/shared/skin_nm"
+	"$nodecal" "1"
+
+	"$phong" 1
+	"$phongexponent" 5
+	"$phongboost"	0.2
+	"$phongfresnelranges" "[0.6 0.6 0.6]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
