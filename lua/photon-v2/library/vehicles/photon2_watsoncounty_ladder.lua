@@ -19,34 +19,6 @@ VEHICLE.SubMaterials = {
     [6] = "models/supermighty/watson_county/misc/ladder_lights",
 }
 
-
--- Component Example:
---	{
---		Component = "component_name",
---		Position = Vector( 10, 20, 30 ),
---		Angles = Angle( 0, 45, 90 ),
---		Scale = 0.9,
---		States = { "R", "B" },
---		Phase = 180,
---		Segments = {
---			MyCustomSegment = {
---					Frames = {
---						[1] = "1 3 5",
---						[2] = "2 4 6"
---					},
---					Sequences = {
---						["MY_SEQUENCE"] = { 1, 2 }
---					}
---				}
---		},
---		Inputs = {
---			["Emergency.Warning"] = {
---				["MODE1"] = {
---					MyCustomSegment = "MY_SEQUENCE"
---				}
---			}
---		}
---	}
 VEHICLE.Components = {	
     {
 		Component = "default_seagrave_ladder_mighty",
